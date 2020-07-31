@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	scroll-behavior: smooth;
+}
+.Header{
+	background-image: url("https://i.ibb.co/gz1v73P/Vhl.jpg");
+	background-size: cover;
+	min-height: 750px;
+	margin: 0;
+	filter: opacity(0.95);
+    text-align:center;
+}
+.p1{
+	width: 200px;
+	height: 30px;
+	margin-left: 50px;
+	font-size: 25px;
+	color: aliceblue;
+    float:left;
+	font-family: Comic Sans, Comic Sans MS, cursive; 
+}
+.p1:hover{
+	color: #C0BDBD;
+	cursor: pointer;
+text-decoration: none;
+}
+.p2{
+	margin-top: 10px;
+	text-align: center;
+	color: #3D4A55;
+	font-family: Comic Sans, Comic Sans MS, cursive; 
+	font-size: 70px;
+}
+.p3{
+	text-align: center;
+	color:  #3D4A55;
+	font-family: Comic Sans, Comic Sans MS, cursive; 
+	font-size: 20px;
+}
+.booking{
+	border-radius: 100px;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 1.2em;
+	background:  #76B3FA;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 60px;
+	color: aliceblue;
+}
+.booking1{
+	border-radius: 100px;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 1.2em;
+	background:  #000000;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 50px;
+	color: aliceblue;
+	float: left;
+	margin-top: 300px;
+	margin-left: 20px;
+}
+.booking2{
+	border-radius: 100px;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 1.2em;
+	background:  #000000;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 50px;
+	color: aliceblue;
+	float: left;
+	margin-top: 300px;
+	margin-left: 70px;
+}
+.booking:hover{
+	cursor: pointer;
+	background: #EDECEC;
+	text-decoration: none;
+}
+.booking1:hover{
+	cursor: pointer;
+	background: #EDECEC;
+	text-decoration: none;
+}
+.booking2:hover{
+	cursor: pointer;
+	background: #EDECEC;
+	text-decoration: none;
+}
+.map{
+	min-height: 950px;
+	width: 750px;
+	position: absolute;
+	background-image: url("https://i.ibb.co/VHBbCbH/bdhc-9tr-2.jpg");
+	background-position: center;
+	background-size: contain;
+}
+.tinhcontent{
+	max-height: 950px;
+	width: 750px;
+	background-color: #DDDDDD;
+	float: right;
+	overflow-y: scroll;
+	font-size: 23px;
+	padding-left: 20px;
+	text-align: left;
+}
+.Tinh{
+	font-family: Comic Sans, Comic Sans MS, cursive; 
+	font-size: 50px;
+}
+.mapbooking{
+	float: right;
+	margin-left: 750px;
+	min-height: 950px;
+	width: 403px;
+	background-color: #292727;
+}
+.mapT{
+	min-height: 950px;
+	text-align: center;
+}

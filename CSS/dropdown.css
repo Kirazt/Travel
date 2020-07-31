@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#menu ul{
+	list-style-type: none;
+	background: #4947FC;
+	border-radius: 10px;
+	padding: 10px 60px;
+	float: right;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 15px;
+	height: 50px;
+	min-height: 100px;
+}
+#menu ul li{
+	display: inline-table;
+	cursor: pointer;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+}
+#menu ul li a:hover{
+	background: #FFFFFF;
+}
+#menu ul li > .submenu{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover .submenu{
+	display: block;
+}
